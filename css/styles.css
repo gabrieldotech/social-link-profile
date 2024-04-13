@@ -1,0 +1,95 @@
+body {
+background-color: #3a3838
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content {
+    width: 200px;
+    height: 400px;
+    padding: 50px;
+    background-color: #2b2929;
+    border-radius: 20px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    margin-top: -20px; 
+}
+
+.content h1 {
+    color: #fff; 
+    margin: 20px 0 5px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.content h2 {
+    color: #b5db72;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 8px 0 10px;
+}
+
+.content h3 {
+    color: white; 
+    font-size: 13px; 
+    margin: 20px 0;
+}
+
+.content p {
+    color: #ccc; 
+}
+
+.profile-image {
+    width: 100px;
+    height: 100px; 
+    border-radius: 50%;
+    object-fit: cover; 
+    margin-top: -20px; 
+    transition: transform 0.9s ease;
+}
+
+.profile-image:hover {
+    transform: rotate(360deg); 
+}
+
+.social-link {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    border: 2px solid #646262;
+    padding: 10px; 
+    margin: 10px 0 20px;
+    border-radius: 5px; 
+    background-color: #535050;
+    transition: background-color 0.3s ease;
+}
+
+.social-link i {
+    margin-right: 10px; 
+}
+
+.social-link a {
+    text-decoration: none; 
+    color: #fff;
+    font-weight: bold;
+}
+
+.social-link:hover {
+    background-color: #777;
+}
+
+.skill {
+    display: inline-block;
+    margin: 0 5px; 
+    margin-top: 10px;
+}
+
+.skill i {
+    font-size: 24px;
+    color: #fff; 
+}
