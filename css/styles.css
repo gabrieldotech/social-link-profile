@@ -67,6 +67,7 @@ background-color: #3a3838
     border-radius: 5px; 
     background-color: #535050;
     transition: background-color 0.3s ease;
+    margin-bottom: 13px;
 }
 
 .social-link i {
